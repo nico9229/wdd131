@@ -1,0 +1,2 @@
+document.getElementById('currentyear').textContent = `© ${new Date().getFullYear()} Nicolas Alejandro Ayala, Chaco, Argentina.`;
+document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;

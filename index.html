@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Dinamic web for Nico">
+    <meta name="author" content="Nicolas Alejandro Ayala">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>WDD 131: Dinamic Web Fundamental</title>
+    <script src="scripts/getdates.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>WDD 131: Dinamic Web Fundamental - Nicolas Alejandro Ayala</h1>
+            <nav>
+                <a href="https://www.linkedin.com/messaging/thread/new/">Linkedin</a>
+                <a href="https://byui.instructure.com/.">I learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/9?lang=spa">My favorite scripture</a>
+                <a href="#">Home</a>
+            </nav>
+        </header>
+        <main>
+            <section class="card"></section>
+            <h2 class="sub1">About Me</h2>
+            <div class="cont1">
+                <img class="M" src="images/profile.jpg" alt="my family" width="auto" height="200">
+            
+                <p>Mi nombre es Nicolas y esta es mi familia, ese dia fue el primer dia de clases y ya estabamos terminando el medio dia y los tenia que llevar a la escuela a todos los chicos </p>
+            </div>
+            <h2 class="W">Chaco, Argentina</h2>
+            <hr class="line">
+
+            <div class="cont2">               
+                <img class="arg" src="images/bandera-argentina.jpg" alt="Bandera Argentina" width="auto" height="200">
+                <p>En mi pais una de nuiestras tradiciones es tomar mate en casi cada moment, y una de las comidas mas tipicas de mi pais es el asado y es por eso por lo que solemos ser mas conosido </p>
+            </div>
+            
+        </main>
+        <div class="aside">
+            <section class="card"></section>
+            <h2 class="sub2">Web Dev Resource</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">HTML Basic</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">CSS Basic</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">Java Script Basic</a></li>
+            </ul>
+        </div>
+        <footer> 
+            <p><span id="currentyear"></span>©️ Nicolas Alejandro Ayala, Chaco, Argentina.</p>
+            <p id="lastModified"></p> 
+        </footer>
+
+        <script> 
+                document.getElementById('currentyear').textContent = new Date().getFullYear();
+
+                document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified;
+        </script>
+        
+    </body>
+</html>
