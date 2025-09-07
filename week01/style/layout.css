@@ -63,7 +63,6 @@ header {
 /*here are the two box*/
 .contenedor {
     grid-column: 1/4;
-    ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
